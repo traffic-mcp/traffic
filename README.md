@@ -25,14 +25,13 @@ Traffic sits between your AI agents and the filesystem, ensuring they don't step
 
 Traffic works with any agent that supports MCP or file-system hooks:
 
-- Claude Code (enforced — MCP + PreToolUse hooks)
-- Cursor (enforced — MCP + hooks)
-- Windsurf (enforced — MCP + hooks)
-- Cline (enforced — MCP + hooks)
-- Augment Code (enforced — MCP + hooks)
-- Gemini CLI (enforced — MCP + hooks)
-- OpenCode (enforced — MCP + plugin hooks)
-- GitHub Copilot, Roo Code, Continue, Q Developer, Codex CLI (advisory — MCP only)
+- Claude Code
+- Cursor
+- Windsurf
+- Cline
+- Augment Code
+- Gemini CLI
+- OpenCode
 
 ## Quick start
 
