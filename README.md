@@ -14,16 +14,16 @@ Traffic sits between your AI agents and the filesystem, ensuring they don't step
 
 ## Components
 
-| Component | Description |
-|-----------|-------------|
-| **Engine** | Daemon + coordination logic. Runs on `localhost:4747`. |
-| **CLI** | `traffic setup`, `traffic start`, `traffic check-write` |
-| **MCP Server** | Streamable HTTP transport — agents connect via Model Context Protocol |
-| **Navigator** | Desktop app for monitoring agents, resolving collisions, and managing coordination |
+| Component | Description | License |
+|-----------|-------------|---------|
+| **Engine** | Daemon + coordination logic. Runs on `localhost:4747`. | Apache 2.0 (open source) |
+| **CLI** | `traffic setup`, `traffic start`, `traffic check-write` | Apache 2.0 (open source) |
+| **MCP Server** | Streamable HTTP transport — agents connect via Model Context Protocol | Apache 2.0 (open source) |
+| **Navigator** | Desktop app for monitoring agents, resolving collisions, and managing coordination | Proprietary (free to use) |
 
 ## Supported agents
 
-Traffic works with any agent that supports MCP or file-system hooks:
+Traffic works with any agent that supports MCP and file-system hooks:
 
 - Claude Code
 - Cursor
@@ -37,7 +37,7 @@ Traffic works with any agent that supports MCP or file-system hooks:
 
 ```bash
 # Install
-npm install -g @trafficnav/engine
+npm install -g @traffic-mcp/engine
 
 # Set up agents (auto-detects installed agents, configures MCP + hooks)
 traffic setup
@@ -65,6 +65,6 @@ Coming soon at [trafficnav.dev](https://trafficnav.dev).
 
 ## License
 
-The Traffic engine is open source under the [Apache License 2.0](LICENSE).
+The Traffic **engine, CLI, and MCP server** are open source under the [Apache License 2.0](LICENSE).
 
-The Navigator desktop app is proprietary — free to use, closed source.
+The Traffic **Navigator** desktop app is proprietary software. The binaries available on the [Releases](https://github.com/traffic-mcp/traffic/releases) page are free to download and use, but the source code is not included in this repository and is not covered by the Apache License. See [NOTICE](NOTICE) for details.

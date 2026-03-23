@@ -1,0 +1,14 @@
+Traffic
+Copyright 2026 Ethan Rader
+
+This repository contains two distinct components with different licenses:
+
+1. ENGINE, CLI, AND MCP SERVER (source code in this repository)
+   Licensed under the Apache License, Version 2.0.
+   See the LICENSE file for the full license text.
+
+2. NAVIGATOR DESKTOP APP (binaries attached to GitHub Releases)
+   Proprietary software. Free to download and use.
+   The Navigator source code is NOT included in this repository
+   and is NOT covered by the Apache License 2.0.
+   All rights reserved.
