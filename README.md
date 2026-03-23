@@ -20,7 +20,7 @@ Prevents file collisions when multiple agents edit the same codebase concurrentl
 <!-- TODO: Uncomment once published to npm -->
 <!-- [![npm](https://img.shields.io/npm/v/@traffic-mcp/engine?style=flat-square&label=engine)](https://www.npmjs.com/package/@traffic-mcp/engine) -->
 
-[Quick Start](#quick-start) · [Navigator App](#navigator-app) · [How It Works](#how-it-works) · [Docs](https://trafficnav.dev)
+[Quick Start](#quick-start) · [Navigator App](#navigator-app) · [How It Works](#how-it-works) · [Docs](https://trafficmcp.com)
 
 </div>
 
@@ -125,7 +125,7 @@ The Navigator desktop app gives you a real-time dashboard for multi-agent coordi
 
 ## Documentation
 
-Coming soon at [trafficnav.dev](https://trafficnav.dev).
+Coming soon at [trafficmcp.com](https://trafficmcp.com).
 
 ## License
 
